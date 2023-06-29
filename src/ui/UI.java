@@ -1,7 +1,7 @@
 package ui;
 
 import org.apache.log4j.Logger;
-import support.*;
+import support.RandNumber;
 import java.util.*;
 
 public class UI {
@@ -23,15 +23,17 @@ public class UI {
 				break;
 			} else if (choice.equals("1") ) {
 				LObj.info("Wybrano losowanie liczby");
+				RandNumber oRandNum = new RandNumber();
+				System.out.println("Wylosowano liczbe " + oRandNum.getRandedNumber() );
 			} else if (choice.equals("A") || choice.equals("a")) {
 				LObj.info("Wybrano losowanie litery");
 			} else {
 				LObj.info("Zła Opcja");
 			}
-			LObj.info("Finish Game");
-			System.exit(0); 
+			
 		}
-		
+		LObj.info("Finish Game");
+		System.exit(0); 
 	}
 		
 }
