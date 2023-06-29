@@ -6,4 +6,5 @@
  *
  */
 module zljvm {
+	requires log4j;
 }
