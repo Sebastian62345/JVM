@@ -1,4 +1,4 @@
-package support;
+package main.java.support;
 import org.apache.log4j.Logger;
 
 public class RandNumber {

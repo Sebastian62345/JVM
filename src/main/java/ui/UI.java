@@ -1,9 +1,8 @@
-package ui;
+package main.java.ui;
 
 import org.apache.log4j.Logger;
-import support.RandNumber;
 import java.util.*;
-
+import main.java.support.*;
 public class UI {
 	
 	static Logger LObj = Logger.getLogger(UI.class);
